@@ -32,10 +32,10 @@ Before you begin, ensure you have the following in place:
 
 3. Preview the changes on each gcp service directory one by one:
 
+    This step will give you an overview of the resources that Terraform plans to create, modify, or delete based on your configuration.
+
     ```bash
     terraform plan
-
-    This step will give you an overview of the resources that Terraform plans to create, modify, or delete based on your configuration.
 
 4. Apply Changes:
     Apply the changes to create your GCP infrastructure:

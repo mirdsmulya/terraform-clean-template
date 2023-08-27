@@ -30,7 +30,7 @@ Before you begin, ensure you have the following in place:
     ```bash
     terraform init
 
-3. Preview the changes on each gcp service directory one by one:
+3. Preview the changes on each GCP service directory one by one to see what terraform will make:
 
     This step will give you an overview of the resources that Terraform plans to create, modify, or delete based on your configuration.
 

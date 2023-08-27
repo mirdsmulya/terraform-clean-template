@@ -42,7 +42,8 @@ Before you begin, ensure you have the following in place:
 
     ```bash
     terraform apply
+
     
-    Review the changes listed and confirm by typing yes when prompted. Terraform will then provision your GCP resources according to your configuration.
+Review the changes listed and confirm by typing yes when prompted. Terraform will then provision your GCP resources according to your configuration.
 
 Note: Be cautious when applying changes, especially in a production environment. Terraform will make the changes as described in the plan without further confirmation.

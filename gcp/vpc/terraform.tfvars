@@ -1,5 +1,5 @@
-cluster_name = "jastip"
-project_id = "ventures-jastip"
+cluster_name = "cluster_name"
+project_id = "your-project-name"
 region = "asia-southeast2"
 subnet_ip_staging = "10.10.0.0/24"
 subnet_ip_production = "10.20.0.0/24"

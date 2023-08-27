@@ -2,21 +2,21 @@ locals {
   # ----------------------------
   # General Variable
   # ----------------------------
-  project_id = "ventures-jastip"
+  project_id = "your-project-name"
   region = "asia-southeast2"
-  network_name = "jastip-network"
+  network_name = "cluster-network"
   env = "staging"
 
 
   # ----------------------------
   # Cloudsql Related Variable
   # ----------------------------
-  cloudsql_name = "jastip-staging"
+  cloudsql_name = "cloudsql-staging"
   delete_protection = true
   database_version = "POSTGRES_14"
   tier_spec = "db-f1-micro"
   availability_type = "ZONAL"
   disk_size = "50"
-  initial_db_name = "jastip"
-  initial_db_user = "jastip-user"
+  initial_db_name = "db1"
+  initial_db_user = "db-user"
 }

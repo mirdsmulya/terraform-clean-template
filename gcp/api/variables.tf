@@ -1,5 +1,5 @@
 variable "project_id" {
-  default = "ventures-jastip"
+  default = "your-project-name"
 }
 
 variable "region" {

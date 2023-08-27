@@ -9,7 +9,7 @@ terraform {
   }
   
   backend "gcs" {
-    bucket = "jastip-terraform"
+    bucket = "your-bucket"
     prefix = "api"
     credentials = "../terraform-sa.json"
   }

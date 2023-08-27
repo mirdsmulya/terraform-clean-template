@@ -6,11 +6,11 @@ locals {
   ### it will be re create network and destroy all manifest
 
   # general variable
-  project_id = "ventures-jastip"
-  cluster_name = "jastip-staging"
+  project_id = "your-project-name"
+  cluster_name = "cluster-staging"
   region = "asia-southeast2"
-  network_name = "jastip-network"
-  subnet_name = "jastip-staging-subnet"
+  network_name = "cluster-network"
+  subnet_name = "cluster-staging-subnet"
   env = "staging"
 
   # kubernetes variable

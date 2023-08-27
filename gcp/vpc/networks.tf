@@ -57,7 +57,7 @@ module "cloud-nat" {
 
 resource "google_compute_global_address" "google-managed-service-range" {
   project = var.project_id
-  name = "google-managed-services-jastip"
+  name = "google-managed-services"
   purpose = "VPC_PEERING"
   prefix_length = 16
   address_type = "INTERNAL"

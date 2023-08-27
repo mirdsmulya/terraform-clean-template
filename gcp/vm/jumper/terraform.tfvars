@@ -1,0 +1,5 @@
+project_id = "ventures-jastip"
+zone = "asia-southeast2-a"
+region = "asia-southeast2"
+network_name = "jastip-network"
+subnet_name = "jastip-staging-subnet"

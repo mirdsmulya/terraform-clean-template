@@ -1,6 +1,6 @@
 # Terraform GCP Infrastructure Template
 
-Welcome to the **Terraform GCP Infrastructure Template** repository! This repository contains a reusable and clean Terraform template for provisioning infrastructure on Google Cloud Platform (GCP). The template leverages a modular approach and uses a `local.tf` file to customize the main infrastructure according to your requirements.
+This repository contains a reusable and clean Terraform template for provisioning infrastructure on Google Cloud Platform (GCP). The template leverages a modular approach and uses a `local.tf` file to customize the main infrastructure according to your requirements.
 
 
 ## Prerequisites
@@ -35,7 +35,7 @@ Before you begin, ensure you have the following in place:
     ```bash
     terraform plan
 
-This step will give you an overview of the resources that Terraform plans to create, modify, or delete based on your configuration.
+    This step will give you an overview of the resources that Terraform plans to create, modify, or delete based on your configuration.
 
 4. Apply Changes:
     Apply the changes to create your GCP infrastructure:
@@ -43,6 +43,6 @@ This step will give you an overview of the resources that Terraform plans to cre
     ```bash
     terraform apply
     
-Review the changes listed and confirm by typing yes when prompted. Terraform will then provision your GCP resources according to your configuration.
+    Review the changes listed and confirm by typing yes when prompted. Terraform will then provision your GCP resources according to your configuration.
 
 Note: Be cautious when applying changes, especially in a production environment. Terraform will make the changes as described in the plan without further confirmation.

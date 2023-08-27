@@ -9,7 +9,7 @@ terraform {
   }
   
   backend "gcs" {
-    bucket = "your-bucket"
+    bucket = "your-bucket-name"
     prefix = "api"
     credentials = "../terraform-sa.json"
   }
